@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Produtos | Houllyn Systems</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Favicon -->
+  <link rel="icon" type="image/png" href="icone.png" />
+  <style>
+    body {
+      background-color: #0a0f2c;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1;
+    }
+  </style>
+</head>
+<body class="text-gray-300 font-sans">
+  <header class="bg-blue-900 fixed w-full top-0 z-50 px-6 py-4 shadow-md">
+    <div class="flex justify-between items-center">
+      <img src="logo.png" alt="Houllyn Systems Logo" class="w-48 h-auto" />
+      <nav class="space-x-4">
+        <a href="index.html" class="hover:text-yellow-400">Home</a>
+        <a href="produtos.html" class="hover:text-yellow-400">Produtos</a>
+        <a href="sobre.html" class="hover:text-yellow-400">Sobre</a>
+        <a href="contato.html" class="hover:text-yellow-400">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+<main class="pt-32 px-4 md:px-10 max-w-7xl mx-auto mb-5">
+  <h2 class="text-3xl font-bold text-gray-200 mb-10 text-center">Nossos Produtos</h2>
+
+  <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+    <!-- Card Produto 1 -->
+    <div class="bg-blue-950 rounded-2xl p-6 border border-yellow-400 shadow-md flex flex-col items-center text-center">
+      <div class="w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center text-4xl font-bold text-black mb-4">
+        ⚙️
+      </div>
+      <h3 class="text-2xl font-semibold text-white mb-2">Houllyn Action Trader</h3>
+      <p class="text-gray-300 mb-4">Automatize suas operações com estratégias personalizadas, IA preditiva e integração com as principais corretoras.</p>
+      <a href="#" class="inline-block bg-yellow-400 text-black px-5 py-2 rounded hover:bg-yellow-300 font-semibold">Quero esse</a>
+    </div>
+
+    <!-- Card Produto 2 -->
+    <div class="bg-blue-950 rounded-2xl p-6 border border-gray-300 shadow-md flex flex-col items-center text-center">
+      <div class="w-20 h-20 bg-gray-300 rounded-full flex items-center justify-center text-4xl font-bold text-black mb-4">
+        💰
+      </div>
+      <h3 class="text-2xl font-semibold text-white mb-2">Houllyn Cash</h3>
+      <p class="text-gray-300 mb-4">Gestor financeiro para traders com relatórios, gerenciamento de risco e projeções de lucro personalizadas.</p>
+      <a href="#" class="inline-block bg-gray-300 text-black px-5 py-2 rounded hover:bg-gray-200 font-semibold">Quero esse</a>
+    </div>
+
+    <!-- Card Produto 3 -->
+    <div class="bg-blue-950 rounded-2xl p-6 border border-yellow-400 shadow-md flex flex-col items-center text-center">
+      <div class="w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center text-4xl font-bold text-black mb-4">
+        🤖
+      </div>
+      <h3 class="text-2xl font-semibold text-white mb-2">Houllyn Sinais Bot</h3>
+      <p class="text-gray-300 mb-4">Receba sinais automatizados com base em algoritmos de alta precisão. Alertas via Telegram e análise de taxa de acerto.</p>
+      <a href="#" class="inline-block bg-yellow-400 text-black px-5 py-2 rounded hover:bg-yellow-300 font-semibold">Quero esse</a>
+    </div>
+
+    <!-- Card Produto 4 -->
+    <div class="bg-blue-950 rounded-2xl p-6 border border-gray-300 shadow-md flex flex-col items-center text-center">
+      <div class="w-20 h-20 bg-gray-300 rounded-full flex items-center justify-center text-4xl font-bold text-black mb-4">
+        🌐
+      </div>
+      <h3 class="text-2xl font-semibold text-white mb-2">Houllynet</h3>
+      <p class="text-gray-300 mb-4">Rede privada de bots com execução sincronizada em alta velocidade. Ideal para times e automações de alta performance.</p>
+      <a href="#" class="inline-block bg-gray-300 text-black px-5 py-2 rounded hover:bg-gray-200 font-semibold">Quero esse</a>
+    </div>
+  </div>
+</main>
+
+  <footer class="text-center py-6 bg-blue-900 text-yellow-400 text-sm">
+    &copy; 2025 Houllyn Cloud Systems. Todos os direitos reservados.
+  </footer>
+</body>
+</html>

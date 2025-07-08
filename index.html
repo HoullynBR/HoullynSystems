@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Houllyn Systems</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="icone.png" />
+
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+
+  <style>
+	.overlay-bg {
+	  background-image: linear-gradient(rgba(10, 15, 44, 0.9), rgba(10, 15, 44, 0.9)), url('/static/banner.jpg');
+	  background-size: cover;
+	  background-position: center;
+	  height: 867px; /* ajuste como quiser: 200px, 400px, etc */
+	}
+    body {
+      background-color: #0a0f2c;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1;
+    }
+  </style>
+</head>
+<body class="text-gray-300">
+  <header class="bg-blue-900 fixed w-full top-0 z-50 px-6 py-4 shadow-md">
+    <div class="flex justify-between items-center">
+      <img src="logo.png" alt="Houllyn Systems Logo" class="w-48 h-auto" />
+      <nav class="space-x-4">
+        <a href="index.html" class="hover:text-yellow-400">Home</a>
+        <a href="produtos.html" class="hover:text-yellow-400">Produtos</a>
+        <a href="sobre.html" class="hover:text-yellow-400">Sobre</a>
+        <a href="contato.html" class="hover:text-yellow-400">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="h-screen flex flex-col justify-center items-center text-center overlay-bg pt-24">
+    <h2 class="text-4xl md:text-6xl font-bold text-gray-300 mb-4">
+      Inteligência Automatizada<br />Performance Ilimitada
+    </h2>
+    <p class="text-yellow-400 max-w-xl font-medium">
+      Soluções para automação trading com inteligência artificial e cloud computing.
+    </p>
+  </section>
+
+  <footer class="text-center py-4 bg-blue-900 text-yellow-400 text-sm">
+    &copy; 2025 Houllyn Systems. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
